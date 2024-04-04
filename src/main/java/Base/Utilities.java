@@ -1,6 +1,7 @@
 package Base;
 
 import org.openqa.selenium.Alert;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
@@ -127,6 +128,17 @@ public class Utilities {
         } catch (Throwable t) {
             t.printStackTrace();
         }
+    }
+    public void javaScriptClick(WebElement element, int durationInSeconds){
+        waitForElementToBeVisible(element, durationInSeconds);
+        JavascriptExecutor jse= ((JavascriptExecutor)driver);
+        jse.executeScript("argument[0].click()",element);
+    }
+
+    public void javaScriptType(WebElement element, int durationInSeconds, String textToType){
+        waitForElementToBeVisible(element, durationInSeconds);
+        JavascriptExecutor jse= ((JavascriptExecutor)driver);
+        jse.executeScript("argument[0].value='"+textToType+"'",element);
     }
 
 }
