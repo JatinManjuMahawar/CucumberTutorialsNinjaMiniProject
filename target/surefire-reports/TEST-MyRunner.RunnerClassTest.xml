@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="MyRunner.RunnerClassTest" time="0.566" tests="6" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="D:\CucumberTutorialsNinjaMiniProject\target\test-classes;D:\CucumberTutorialsNinjaMiniProject\target\classes;C:\Users\jatin\.m2\repository\io\cucumber\cucumber-core\7.16.1\cucumber-core-7.16.1.jar;C:\Users\jatin\.m2\repository\io\cucumber\cucumber-gherkin\7.16.1\cucumber-gherkin-7.16.1.jar;C:\Users\jatin\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.16.1\cucumber-gherkin-messages-7.16.1.jar;C:\Users\jatin\.m2\repository\io\cucumber\gherkin\28.0.0\gherkin-28.0.0.jar;C:\Users\jatin\.m2\repository\io\cucumber\messages\24.1.0\messages-24.1.0.jar;C:\Users\jatin\.m2\repository\io\cucumber\tag-expressions\6.1.0\tag-expressions-6.1.0.jar;C:\Users\jatin\.m2\repository\io\cucumber\cucumber-expressions\17.1.0\cucumber-expressions-17.1.0.jar;C:\Users\jatin\.m2\repository\io\cucumber\datatable\7.16.1\datatable-7.16.1.jar;C:\Users\jatin\.m2\repository\io\cucumber\cucumber-plugin\7.16.1\cucumber-plugin-7.16.1.jar;C:\Users\jatin\.m2\repository\io\cucumber\docstring\7.16.1\docstring-7.16.1.jar;C:\Users\jatin\.m2\repository\io\cucumber\html-formatter\21.3.0\html-formatter-21.3.0.jar;C:\Users\jatin\.m2\repository\io\cucumber\junit-xml-formatter\0.3.0\junit-xml-formatter-0.3.0.jar;C:\Users\jatin\.m2\repository\io\cucumber\ci-environment\10.0.1\ci-environment-10.0.1.jar;C:\Users\jatin\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\jatin\.m2\repository\org\seleniumhq\selenium\selenium-java\4.18.0\selenium-java-4.18.0.jar;C:\Users\jatin\.m2\repository\org\seleniumhq\selenium\selenium-api\4.18.0\selenium-api-4.18.0.jar;C:\Users\jatin\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.18.0\selenium-chrome-driver-4.18.0.jar;C:\Users\jatin\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\jatin\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.18.0\selenium-chromium-driver-4.18.0.jar;C:\Users\jatin\.m2\repository\org\seleniumhq\selenium\selenium-json\4.18.0\selenium-json-4.18.0.jar;C:\Users\jatin\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.18.0\selenium-manager-4.18.0.jar;C:\Users\jatin\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v119\4.18.0\selenium-devtools-v119-4.18.0.jar;C:\Users\jatin\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v120\4.18.0\selenium-devtools-v120-4.18.0.jar;C:\Users\jatin\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v121\4.18.0\selenium-devtools-v121-4.18.0.jar;C:\Users\jatin\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.18.0\selenium-devtools-v85-4.18.0.jar;C:\Users\jatin\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.18.0\selenium-edge-driver-4.18.0.jar;C:\Users\jatin\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.18.0\selenium-firefox-driver-4.18.0.jar;C:\Users\jatin\.m2\repository\org\seleniumhq\selenium\selenium-http\4.18.0\selenium-http-4.18.0.jar;C:\Users\jatin\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\jatin\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.18.0\selenium-ie-driver-4.18.0.jar;C:\Users\jatin\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.18.0\selenium-remote-driver-4.18.0.jar;C:\Users\jatin\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.23.1-alpha\opentelemetry-semconv-1.23.1-alpha.jar;C:\Users\jatin\.m2\repository\io\opentelemetry\opentelemetry-api\1.35.0\opentelemetry-api-1.35.0.jar;C:\Users\jatin\.m2\repository\io\opentelemetry\opentelemetry-context\1.35.0\opentelemetry-context-1.35.0.jar;C:\Users\jatin\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.35.0\opentelemetry-exporter-logging-1.35.0.jar;C:\Users\jatin\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.35.0\opentelemetry-sdk-common-1.35.0.jar;C:\Users\jatin\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.35.0\opentelemetry-sdk-extension-autoconfigure-spi-1.35.0.jar;C:\Users\jatin\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.35.0\opentelemetry-sdk-extension-autoconfigure-1.35.0.jar;C:\Users\jatin\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.35.0-alpha\opentelemetry-api-events-1.35.0-alpha.jar;C:\Users\jatin\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.35.0\opentelemetry-sdk-trace-1.35.0.jar;C:\Users\jatin\.m2\repository\io\opentelemetry\opentelemetry-extension-incubator\1.35.0-alpha\opentelemetry-extension-incubator-1.35.0-alpha.jar;C:\Users\jatin\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.35.0\opentelemetry-sdk-1.35.0.jar;C:\Users\jatin\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.35.0\opentelemetry-sdk-metrics-1.35.0.jar;C:\Users\jatin\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.35.0\opentelemetry-sdk-logs-1.35.0.jar;C:\Users\jatin\.m2\repository\net\bytebuddy\byte-buddy\1.14.12\byte-buddy-1.14.12.jar;C:\Users\jatin\.m2\repository\org\seleniumhq\selenium\selenium-os\4.18.0\selenium-os-4.18.0.jar;C:\Users\jatin\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\jatin\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.18.0\selenium-safari-driver-4.18.0.jar;C:\Users\jatin\.m2\repository\org\seleniumhq\selenium\selenium-support\4.18.0\selenium-support-4.18.0.jar;C:\Users\jatin\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\jatin\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\jatin\.m2\repository\io\cucumber\cucumber-html\0.2.7\cucumber-html-0.2.7.jar;C:\Users\jatin\.m2\repository\net\sourceforge\cobertura\cobertura\2.1.1\cobertura-2.1.1.jar;C:\Users\jatin\.m2\repository\org\ow2\asm\asm\5.0.1\asm-5.0.1.jar;C:\Users\jatin\.m2\repository\org\ow2\asm\asm-tree\5.0.1\asm-tree-5.0.1.jar;C:\Users\jatin\.m2\repository\org\ow2\asm\asm-commons\5.0.1\asm-commons-5.0.1.jar;C:\Users\jatin\.m2\repository\org\ow2\asm\asm-util\5.0.1\asm-util-5.0.1.jar;C:\Users\jatin\.m2\repository\org\ow2\asm\asm-analysis\5.0.1\asm-analysis-5.0.1.jar;C:\Users\jatin\.m2\repository\oro\oro\2.0.8\oro-2.0.8.jar;C:\Users\jatin\.m2\repository\jaxen\jaxen\1.1.4\jaxen-1.1.4.jar;C:\Users\jatin\.m2\repository\org\apache\ant\ant\1.8.3\ant-1.8.3.jar;C:\Users\jatin\.m2\repository\org\apache\ant\ant-launcher\1.8.3\ant-launcher-1.8.3.jar;C:\Users\jatin\.m2\repository\org\apache\ant\ant-junit\1.8.3\ant-junit-1.8.3.jar;C:\Users\jatin\.m2\repository\org\mortbay\jetty\servlet-api-2.5\6.1.14\servlet-api-2.5-6.1.14.jar;C:\Users\jatin\.m2\repository\org\mortbay\jetty\jetty\6.1.14\jetty-6.1.14.jar;C:\Users\jatin\.m2\repository\org\mortbay\jetty\jetty-util\6.1.14\jetty-util-6.1.14.jar;C:\Users\jatin\.m2\repository\org\slf4j\slf4j-api\1.7.5\slf4j-api-1.7.5.jar;C:\Users\jatin\.m2\repository\ch\qos\logback\logback-classic\1.0.13\logback-classic-1.0.13.jar;C:\Users\jatin\.m2\repository\ch\qos\logback\logback-core\1.0.13\logback-core-1.0.13.jar;C:\Users\jatin\.m2\repository\org\apache\commons\commons-lang3\3.3.2\commons-lang3-3.3.2.jar;C:\Users\jatin\.m2\repository\io\cucumber\cucumber-java\7.16.1\cucumber-java-7.16.1.jar;C:\Users\jatin\.m2\repository\io\cucumber\cucumber-junit\7.16.1\cucumber-junit-7.16.1.jar;C:\Users\jatin\.m2\repository\io\cucumber\cucumber-jvm-deps\1.0.6\cucumber-jvm-deps-1.0.6.jar;C:\Users\jatin\.m2\repository\net\masterthought\cucumber-reporting\5.8.0\cucumber-reporting-5.8.0.jar;C:\Users\jatin\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.16.1\jackson-databind-2.16.1.jar;C:\Users\jatin\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.16.1\jackson-annotations-2.16.1.jar;C:\Users\jatin\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.16.1\jackson-core-2.16.1.jar;C:\Users\jatin\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.16.1\jackson-datatype-jsr310-2.16.1.jar;C:\Users\jatin\.m2\repository\org\apache\velocity\velocity-engine-core\2.3\velocity-engine-core-2.3.jar;C:\Users\jatin\.m2\repository\joda-time\joda-time\2.12.6\joda-time-2.12.6.jar;C:\Users\jatin\.m2\repository\org\apache\commons\commons-configuration2\2.9.0\commons-configuration2-2.9.0.jar;C:\Users\jatin\.m2\repository\commons-io\commons-io\2.15.1\commons-io-2.15.1.jar;C:\Users\jatin\.m2\repository\org\apache\commons\commons-text\1.11.0\commons-text-1.11.0.jar;C:\Users\jatin\.m2\repository\org\jsoup\jsoup\1.17.2\jsoup-1.17.2.jar;C:\Users\jatin\.m2\repository\com\googlecode\owasp-java-html-sanitizer\owasp-java-html-sanitizer\20220608.1\owasp-java-html-sanitizer-20220608.1.jar;C:\Users\jatin\.m2\repository\com\google\guava\guava\33.0.0-jre\guava-33.0.0-jre.jar;C:\Users\jatin\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\jatin\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\jatin\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\jatin\.m2\repository\org\checkerframework\checker-qual\3.41.0\checker-qual-3.41.0.jar;C:\Users\jatin\.m2\repository\com\google\errorprone\error_prone_annotations\2.23.0\error_prone_annotations-2.23.0.jar;C:\Users\jatin\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar;C:\Users\jatin\.m2\repository\org\slf4j\jcl-over-slf4j\2.0.11\jcl-over-slf4j-2.0.11.jar;C:\Users\jatin\.m2\repository\org\projectlombok\lombok\1.18.32\lombok-1.18.32.jar;C:\Program Files\Java\jdk-17\lib\tools-1.8.0.jar;C:\Users\jatin\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
+    <property name="sun.java.command" value="C:\Users\jatin\AppData\Local\Temp\surefire4888087421546075038\surefirebooter-20240329175716610_3.jar C:\Users\jatin\AppData\Local\Temp\surefire4888087421546075038 2024-03-29T17-57-16_494-jvmRun1 surefire-20240329175716610_1tmp surefire_0-20240329175716610_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="D:\CucumberTutorialsNinjaMiniProject\target\test-classes;D:\CucumberTutorialsNinjaMiniProject\target\classes;C:\Users\jatin\.m2\repository\io\cucumber\cucumber-core\7.16.1\cucumber-core-7.16.1.jar;C:\Users\jatin\.m2\repository\io\cucumber\cucumber-gherkin\7.16.1\cucumber-gherkin-7.16.1.jar;C:\Users\jatin\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.16.1\cucumber-gherkin-messages-7.16.1.jar;C:\Users\jatin\.m2\repository\io\cucumber\gherkin\28.0.0\gherkin-28.0.0.jar;C:\Users\jatin\.m2\repository\io\cucumber\messages\24.1.0\messages-24.1.0.jar;C:\Users\jatin\.m2\repository\io\cucumber\tag-expressions\6.1.0\tag-expressions-6.1.0.jar;C:\Users\jatin\.m2\repository\io\cucumber\cucumber-expressions\17.1.0\cucumber-expressions-17.1.0.jar;C:\Users\jatin\.m2\repository\io\cucumber\datatable\7.16.1\datatable-7.16.1.jar;C:\Users\jatin\.m2\repository\io\cucumber\cucumber-plugin\7.16.1\cucumber-plugin-7.16.1.jar;C:\Users\jatin\.m2\repository\io\cucumber\docstring\7.16.1\docstring-7.16.1.jar;C:\Users\jatin\.m2\repository\io\cucumber\html-formatter\21.3.0\html-formatter-21.3.0.jar;C:\Users\jatin\.m2\repository\io\cucumber\junit-xml-formatter\0.3.0\junit-xml-formatter-0.3.0.jar;C:\Users\jatin\.m2\repository\io\cucumber\ci-environment\10.0.1\ci-environment-10.0.1.jar;C:\Users\jatin\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\jatin\.m2\repository\org\seleniumhq\selenium\selenium-java\4.18.0\selenium-java-4.18.0.jar;C:\Users\jatin\.m2\repository\org\seleniumhq\selenium\selenium-api\4.18.0\selenium-api-4.18.0.jar;C:\Users\jatin\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.18.0\selenium-chrome-driver-4.18.0.jar;C:\Users\jatin\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\jatin\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.18.0\selenium-chromium-driver-4.18.0.jar;C:\Users\jatin\.m2\repository\org\seleniumhq\selenium\selenium-json\4.18.0\selenium-json-4.18.0.jar;C:\Users\jatin\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.18.0\selenium-manager-4.18.0.jar;C:\Users\jatin\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v119\4.18.0\selenium-devtools-v119-4.18.0.jar;C:\Users\jatin\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v120\4.18.0\selenium-devtools-v120-4.18.0.jar;C:\Users\jatin\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v121\4.18.0\selenium-devtools-v121-4.18.0.jar;C:\Users\jatin\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.18.0\selenium-devtools-v85-4.18.0.jar;C:\Users\jatin\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.18.0\selenium-edge-driver-4.18.0.jar;C:\Users\jatin\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.18.0\selenium-firefox-driver-4.18.0.jar;C:\Users\jatin\.m2\repository\org\seleniumhq\selenium\selenium-http\4.18.0\selenium-http-4.18.0.jar;C:\Users\jatin\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\jatin\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.18.0\selenium-ie-driver-4.18.0.jar;C:\Users\jatin\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.18.0\selenium-remote-driver-4.18.0.jar;C:\Users\jatin\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.23.1-alpha\opentelemetry-semconv-1.23.1-alpha.jar;C:\Users\jatin\.m2\repository\io\opentelemetry\opentelemetry-api\1.35.0\opentelemetry-api-1.35.0.jar;C:\Users\jatin\.m2\repository\io\opentelemetry\opentelemetry-context\1.35.0\opentelemetry-context-1.35.0.jar;C:\Users\jatin\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.35.0\opentelemetry-exporter-logging-1.35.0.jar;C:\Users\jatin\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.35.0\opentelemetry-sdk-common-1.35.0.jar;C:\Users\jatin\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.35.0\opentelemetry-sdk-extension-autoconfigure-spi-1.35.0.jar;C:\Users\jatin\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.35.0\opentelemetry-sdk-extension-autoconfigure-1.35.0.jar;C:\Users\jatin\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.35.0-alpha\opentelemetry-api-events-1.35.0-alpha.jar;C:\Users\jatin\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.35.0\opentelemetry-sdk-trace-1.35.0.jar;C:\Users\jatin\.m2\repository\io\opentelemetry\opentelemetry-extension-incubator\1.35.0-alpha\opentelemetry-extension-incubator-1.35.0-alpha.jar;C:\Users\jatin\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.35.0\opentelemetry-sdk-1.35.0.jar;C:\Users\jatin\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.35.0\opentelemetry-sdk-metrics-1.35.0.jar;C:\Users\jatin\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.35.0\opentelemetry-sdk-logs-1.35.0.jar;C:\Users\jatin\.m2\repository\net\bytebuddy\byte-buddy\1.14.12\byte-buddy-1.14.12.jar;C:\Users\jatin\.m2\repository\org\seleniumhq\selenium\selenium-os\4.18.0\selenium-os-4.18.0.jar;C:\Users\jatin\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\jatin\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.18.0\selenium-safari-driver-4.18.0.jar;C:\Users\jatin\.m2\repository\org\seleniumhq\selenium\selenium-support\4.18.0\selenium-support-4.18.0.jar;C:\Users\jatin\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\jatin\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\jatin\.m2\repository\io\cucumber\cucumber-html\0.2.7\cucumber-html-0.2.7.jar;C:\Users\jatin\.m2\repository\net\sourceforge\cobertura\cobertura\2.1.1\cobertura-2.1.1.jar;C:\Users\jatin\.m2\repository\org\ow2\asm\asm\5.0.1\asm-5.0.1.jar;C:\Users\jatin\.m2\repository\org\ow2\asm\asm-tree\5.0.1\asm-tree-5.0.1.jar;C:\Users\jatin\.m2\repository\org\ow2\asm\asm-commons\5.0.1\asm-commons-5.0.1.jar;C:\Users\jatin\.m2\repository\org\ow2\asm\asm-util\5.0.1\asm-util-5.0.1.jar;C:\Users\jatin\.m2\repository\org\ow2\asm\asm-analysis\5.0.1\asm-analysis-5.0.1.jar;C:\Users\jatin\.m2\repository\oro\oro\2.0.8\oro-2.0.8.jar;C:\Users\jatin\.m2\repository\jaxen\jaxen\1.1.4\jaxen-1.1.4.jar;C:\Users\jatin\.m2\repository\org\apache\ant\ant\1.8.3\ant-1.8.3.jar;C:\Users\jatin\.m2\repository\org\apache\ant\ant-launcher\1.8.3\ant-launcher-1.8.3.jar;C:\Users\jatin\.m2\repository\org\apache\ant\ant-junit\1.8.3\ant-junit-1.8.3.jar;C:\Users\jatin\.m2\repository\org\mortbay\jetty\servlet-api-2.5\6.1.14\servlet-api-2.5-6.1.14.jar;C:\Users\jatin\.m2\repository\org\mortbay\jetty\jetty\6.1.14\jetty-6.1.14.jar;C:\Users\jatin\.m2\repository\org\mortbay\jetty\jetty-util\6.1.14\jetty-util-6.1.14.jar;C:\Users\jatin\.m2\repository\org\slf4j\slf4j-api\1.7.5\slf4j-api-1.7.5.jar;C:\Users\jatin\.m2\repository\ch\qos\logback\logback-classic\1.0.13\logback-classic-1.0.13.jar;C:\Users\jatin\.m2\repository\ch\qos\logback\logback-core\1.0.13\logback-core-1.0.13.jar;C:\Users\jatin\.m2\repository\org\apache\commons\commons-lang3\3.3.2\commons-lang3-3.3.2.jar;C:\Users\jatin\.m2\repository\io\cucumber\cucumber-java\7.16.1\cucumber-java-7.16.1.jar;C:\Users\jatin\.m2\repository\io\cucumber\cucumber-junit\7.16.1\cucumber-junit-7.16.1.jar;C:\Users\jatin\.m2\repository\io\cucumber\cucumber-jvm-deps\1.0.6\cucumber-jvm-deps-1.0.6.jar;C:\Users\jatin\.m2\repository\net\masterthought\cucumber-reporting\5.8.0\cucumber-reporting-5.8.0.jar;C:\Users\jatin\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.16.1\jackson-databind-2.16.1.jar;C:\Users\jatin\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.16.1\jackson-annotations-2.16.1.jar;C:\Users\jatin\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.16.1\jackson-core-2.16.1.jar;C:\Users\jatin\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.16.1\jackson-datatype-jsr310-2.16.1.jar;C:\Users\jatin\.m2\repository\org\apache\velocity\velocity-engine-core\2.3\velocity-engine-core-2.3.jar;C:\Users\jatin\.m2\repository\joda-time\joda-time\2.12.6\joda-time-2.12.6.jar;C:\Users\jatin\.m2\repository\org\apache\commons\commons-configuration2\2.9.0\commons-configuration2-2.9.0.jar;C:\Users\jatin\.m2\repository\commons-io\commons-io\2.15.1\commons-io-2.15.1.jar;C:\Users\jatin\.m2\repository\org\apache\commons\commons-text\1.11.0\commons-text-1.11.0.jar;C:\Users\jatin\.m2\repository\org\jsoup\jsoup\1.17.2\jsoup-1.17.2.jar;C:\Users\jatin\.m2\repository\com\googlecode\owasp-java-html-sanitizer\owasp-java-html-sanitizer\20220608.1\owasp-java-html-sanitizer-20220608.1.jar;C:\Users\jatin\.m2\repository\com\google\guava\guava\33.0.0-jre\guava-33.0.0-jre.jar;C:\Users\jatin\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\jatin\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\jatin\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\jatin\.m2\repository\org\checkerframework\checker-qual\3.41.0\checker-qual-3.41.0.jar;C:\Users\jatin\.m2\repository\com\google\errorprone\error_prone_annotations\2.23.0\error_prone_annotations-2.23.0.jar;C:\Users\jatin\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar;C:\Users\jatin\.m2\repository\org\slf4j\jcl-over-slf4j\2.0.11\jcl-over-slf4j-2.0.11.jar;C:\Users\jatin\.m2\repository\org\projectlombok\lombok\1.18.32\lombok-1.18.32.jar;C:\Program Files\Java\jdk-17\lib\tools-1.8.0.jar;C:\Users\jatin\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\jatin"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-01-16"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-17"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="D:\CucumberTutorialsNinjaMiniProject"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\jatin\AppData\Local\Temp\surefire4888087421546075038\surefirebooter-20240329175716610_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.10+11-LTS-240"/>
+    <property name="user.name" value="jatin"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\jatin\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\jatin\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.10"/>
+    <property name="user.dir" value="D:\CucumberTutorialsNinjaMiniProject"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files (x86)\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files\Azure Data Studio\bin;C:\Program Files\Java\jdk-17\bin;C:\apache-maven-3.9.6\bin;C:\Program Files\Git\cmd;C:\Users\jatin\AppData\Local\Microsoft\WindowsApps;;C:\Program Files\JetBrains\IntelliJ IDEA 2022.3.1\bin;;C:\Users\jatin\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.3.2\bin;;C:\Program Files\Azure Data Studio\bin;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.10+11-LTS-240"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="Login using valid conditions #1" classname="User Login" time="0.079">
+    <system-out><![CDATA[
+@all @validCredentials @smoke @regression
+Scenario Outline: Login using valid conditions           &amp#27;[90m# src/test/resources/TestFeatures/Login.feature:16&amp#27;[0m
+BeforeOrder0
+Browser opened order 1
+Before Step
+User opened the application URL
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser open the application URL&amp#27;[0m                    &amp#27;[90m# TestClasses.Login.User_open_the_application_URL()&amp#27;[0m
+After Step
+Before Step
+User navigated to Login Page
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser navigates to Login Page&amp#27;[0m                      &amp#27;[90m# TestClasses.Login.userNavigatesToLoginPage()&amp#27;[0m
+After Step
+Before Step
+User entered valid email address: "jatingupta543@gmail.co"
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser enters valid &amp#27;[0m&amp#27;[32m&amp#27;[1m"jatingupta543@gmail.co"&amp#27;[0m&amp#27;[32m address&amp#27;[0m &amp#27;[90m# TestClasses.Login.userEntersValidEmailAdd(java.lang.String)&amp#27;[0m
+After Step
+Before Step
+User entered valid password: "Mm@8zKPANUMLHL"
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser enters valid passwords &amp#27;[0m&amp#27;[32m&amp#27;[1m"Mm@8zKPANUMLHL"&amp#27;[0m       &amp#27;[90m# TestClasses.Login.userEntersValidPasswords(java.lang.String)&amp#27;[0m
+After Step
+Before Step
+User logged in successfully
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser should login successfully&amp#27;[0m                    &amp#27;[90m# TestClasses.Login.userShouldLoginSuccessfully()&amp#27;[0m
+After Step
+After Order 1
+Browser closed order 0
+]]></system-out>
+  </testcase>
+  <testcase name="Login using valid conditions #2" classname="User Login" time="0.01">
+    <system-out><![CDATA[
+@all @validCredentials @smoke @regression
+Scenario Outline: Login using valid conditions           &amp#27;[90m# src/test/resources/TestFeatures/Login.feature:17&amp#27;[0m
+BeforeOrder0
+Browser opened order 1
+Before Step
+User opened the application URL
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser open the application URL&amp#27;[0m                    &amp#27;[90m# TestClasses.Login.User_open_the_application_URL()&amp#27;[0m
+After Step
+Before Step
+User navigated to Login Page
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser navigates to Login Page&amp#27;[0m                      &amp#27;[90m# TestClasses.Login.userNavigatesToLoginPage()&amp#27;[0m
+After Step
+Before Step
+User entered valid email address: "jatingupta543@gmail.co"
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser enters valid &amp#27;[0m&amp#27;[32m&amp#27;[1m"jatingupta543@gmail.co"&amp#27;[0m&amp#27;[32m address&amp#27;[0m &amp#27;[90m# TestClasses.Login.userEntersValidEmailAdd(java.lang.String)&amp#27;[0m
+After Step
+Before Step
+User entered valid password: "Mm@8zKPANUMLHL"
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser enters valid passwords &amp#27;[0m&amp#27;[32m&amp#27;[1m"Mm@8zKPANUMLHL"&amp#27;[0m       &amp#27;[90m# TestClasses.Login.userEntersValidPasswords(java.lang.String)&amp#27;[0m
+After Step
+Before Step
+User logged in successfully
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser should login successfully&amp#27;[0m                    &amp#27;[90m# TestClasses.Login.userShouldLoginSuccessfully()&amp#27;[0m
+After Step
+After Order 1
+Browser closed order 0
+]]></system-out>
+  </testcase>
+  <testcase name="Login using valid conditions #3" classname="User Login" time="0.008">
+    <system-out><![CDATA[
+@all @validCredentials @smoke @regression
+Scenario Outline: Login using valid conditions           &amp#27;[90m# src/test/resources/TestFeatures/Login.feature:18&amp#27;[0m
+BeforeOrder0
+Browser opened order 1
+Before Step
+User opened the application URL
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser open the application URL&amp#27;[0m                    &amp#27;[90m# TestClasses.Login.User_open_the_application_URL()&amp#27;[0m
+After Step
+Before Step
+User navigated to Login Page
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser navigates to Login Page&amp#27;[0m                      &amp#27;[90m# TestClasses.Login.userNavigatesToLoginPage()&amp#27;[0m
+After Step
+Before Step
+User entered valid email address: "jatingupta543@gmail.co"
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser enters valid &amp#27;[0m&amp#27;[32m&amp#27;[1m"jatingupta543@gmail.co"&amp#27;[0m&amp#27;[32m address&amp#27;[0m &amp#27;[90m# TestClasses.Login.userEntersValidEmailAdd(java.lang.String)&amp#27;[0m
+After Step
+Before Step
+User entered valid password: "Mm@8zKPANUMLHL"
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser enters valid passwords &amp#27;[0m&amp#27;[32m&amp#27;[1m"Mm@8zKPANUMLHL"&amp#27;[0m       &amp#27;[90m# TestClasses.Login.userEntersValidPasswords(java.lang.String)&amp#27;[0m
+After Step
+Before Step
+User logged in successfully
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser should login successfully&amp#27;[0m                    &amp#27;[90m# TestClasses.Login.userShouldLoginSuccessfully()&amp#27;[0m
+After Step
+After Order 1
+Browser closed order 0
+]]></system-out>
+  </testcase>
+  <testcase name="Login using invalid credentials #1" classname="User Login" time="0.007">
+    <system-out><![CDATA[
+@all @invalidCredentials @smoke
+Scenario Outline: Login using invalid credentials                 &amp#27;[90m# src/test/resources/TestFeatures/Login.feature:29&amp#27;[0m
+BeforeOrder0
+User opened the application URL
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser open the application URL&amp#27;[0m                             &amp#27;[90m# TestClasses.Login.User_open_the_application_URL()&amp#27;[0m
+After Step
+User navigated to Login Page
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser navigates to Login Page&amp#27;[0m                               &amp#27;[90m# TestClasses.Login.userNavigatesToLoginPage()&amp#27;[0m
+After Step
+User entered invalid email address: "jatingupta543@gmail.com"
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser enters invalid Email address &amp#27;[0m&amp#27;[32m&amp#27;[1m"jatingupta543@gmail.com"&amp#27;[0m &amp#27;[90m# TestClasses.Login.userEntersInvalidEmailAddress(java.lang.String)&amp#27;[0m
+After Step
+User entered invalid password: "Mm@8"
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser enters invalid passwords &amp#27;[0m&amp#27;[32m&amp#27;[1m"Mm@8"&amp#27;[0m                        &amp#27;[90m# TestClasses.Login.userEntersInvalidPasswords(java.lang.String)&amp#27;[0m
+After Step
+User did not login successfully
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser should not login successfully&amp#27;[0m                         &amp#27;[90m# TestClasses.Login.userShouldNotLoginSuccessfully()&amp#27;[0m
+After Step
+User should get a proper warning message
+  &amp#27;[32mBut &amp#27;[0m&amp#27;[32mUser should get a proper warning message&amp#27;[0m                    &amp#27;[90m# TestClasses.Login.userShouldGetAProperWarningMessage()&amp#27;[0m
+After Step
+After Order 1
+]]></system-out>
+  </testcase>
+  <testcase name="Login using invalid credentials #2" classname="User Login" time="0.007">
+    <system-out><![CDATA[
+@all @invalidCredentials @smoke
+Scenario Outline: Login using invalid credentials               &amp#27;[90m# src/test/resources/TestFeatures/Login.feature:30&amp#27;[0m
+BeforeOrder0
+User opened the application URL
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser open the application URL&amp#27;[0m                           &amp#27;[90m# TestClasses.Login.User_open_the_application_URL()&amp#27;[0m
+After Step
+User navigated to Login Page
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser navigates to Login Page&amp#27;[0m                             &amp#27;[90m# TestClasses.Login.userNavigatesToLoginPage()&amp#27;[0m
+After Step
+User entered invalid email address: "jatingupta543@gmail.c"
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser enters invalid Email address &amp#27;[0m&amp#27;[32m&amp#27;[1m"jatingupta543@gmail.c"&amp#27;[0m &amp#27;[90m# TestClasses.Login.userEntersInvalidEmailAddress(java.lang.String)&amp#27;[0m
+After Step
+User entered invalid password: "mMLHL"
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser enters invalid passwords &amp#27;[0m&amp#27;[32m&amp#27;[1m"mMLHL"&amp#27;[0m                     &amp#27;[90m# TestClasses.Login.userEntersInvalidPasswords(java.lang.String)&amp#27;[0m
+After Step
+User did not login successfully
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser should not login successfully&amp#27;[0m                       &amp#27;[90m# TestClasses.Login.userShouldNotLoginSuccessfully()&amp#27;[0m
+After Step
+User should get a proper warning message
+  &amp#27;[32mBut &amp#27;[0m&amp#27;[32mUser should get a proper warning message&amp#27;[0m                  &amp#27;[90m# TestClasses.Login.userShouldGetAProperWarningMessage()&amp#27;[0m
+After Step
+After Order 1
+]]></system-out>
+  </testcase>
+  <testcase name="Login using invalid credentials #3" classname="User Login" time="0.007">
+    <system-out><![CDATA[
+@all @invalidCredentials @smoke
+Scenario Outline: Login using invalid credentials               &amp#27;[90m# src/test/resources/TestFeatures/Login.feature:31&amp#27;[0m
+BeforeOrder0
+User opened the application URL
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser open the application URL&amp#27;[0m                           &amp#27;[90m# TestClasses.Login.User_open_the_application_URL()&amp#27;[0m
+After Step
+User navigated to Login Page
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser navigates to Login Page&amp#27;[0m                             &amp#27;[90m# TestClasses.Login.userNavigatesToLoginPage()&amp#27;[0m
+After Step
+User entered invalid email address: "jatingupta543@gmail.o"
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser enters invalid Email address &amp#27;[0m&amp#27;[32m&amp#27;[1m"jatingupta543@gmail.o"&amp#27;[0m &amp#27;[90m# TestClasses.Login.userEntersInvalidEmailAddress(java.lang.String)&amp#27;[0m
+After Step
+User entered invalid password: "UMLHL"
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser enters invalid passwords &amp#27;[0m&amp#27;[32m&amp#27;[1m"UMLHL"&amp#27;[0m                     &amp#27;[90m# TestClasses.Login.userEntersInvalidPasswords(java.lang.String)&amp#27;[0m
+After Step
+User did not login successfully
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser should not login successfully&amp#27;[0m                       &amp#27;[90m# TestClasses.Login.userShouldNotLoginSuccessfully()&amp#27;[0m
+After Step
+User should get a proper warning message
+  &amp#27;[32mBut &amp#27;[0m&amp#27;[32mUser should get a proper warning message&amp#27;[0m                  &amp#27;[90m# TestClasses.Login.userShouldGetAProperWarningMessage()&amp#27;[0m
+After Step
+After Order 1
+]]></system-out>
+  </testcase>
+</testsuite>
